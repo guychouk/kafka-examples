@@ -1,0 +1,7 @@
+name := "kafka-examples"
+version:= "0.1"
+scalaVersion:= "2.13.6"
+libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.0.0"
+libraryDependencies += "org.apache.kafka" % "kafka-streams" % "3.0.0"
+libraryDependencies += "org.apache.kafka" %% "kafka-streams-scala" % "3.0.0"
+libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.8.0-alpha2"
